@@ -1,7 +1,7 @@
 import React from "react";
 import { MovieCard } from "./MovieCard";
 
-export const MoviesContainer = () => {
+export const SectionContainer = () => {
   return (
     <div>
       <div className="inter flex gap-[32px] pt-10 pl-10">

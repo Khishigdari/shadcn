@@ -2,12 +2,12 @@
 // import { Card } from "@/components/ui/card";
 // import Image from "next/image";
 
-import { MoviesContainer } from "@/components/my";
+import { SectionContainer } from "@/components/my";
 
 export default function Home() {
   return (
     <div>
-      <MoviesContainer></MoviesContainer>
+      <SectionContainer />
     </div>
   );
 }
