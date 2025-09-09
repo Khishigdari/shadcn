@@ -19,7 +19,8 @@ export const MovieCard = ({ title, rating, image }: movieCardProps) => {
   return (
     <Card className="w-[230px] bg-secondary p-0 overflow-hidden gap-2 shadow-none border-0">
       <CardContent className="p-0  ">
-        <div className="bg-[#000000] border-0">
+        <div className=" border-0 bg-[#000000]">
+          {/* bg-[#000000] */}
           <Image
             src={image}
             alt=""
@@ -32,12 +33,14 @@ export const MovieCard = ({ title, rating, image }: movieCardProps) => {
       <CardFooter className="flex flex-col items-start p-2">
         <CardDescription className="flex gap-2 items-center">
           <FaStar color="#FDE047" />
-          <span className="text-[14px] text-[#09090B] leading-5">
+          <p className="text-[14px] leading-5">
+            {/* text-[#09090B] */}
             {rating}
             <span className="text-[12px] text-[#71717A] leading-4">/10</span>
-          </span>
+          </p>
         </CardDescription>
-        <CardTitle className="text-[18px] leading-7 text-[#09090B] font-normal ">
+        <CardTitle className="text-[18px] leading-7 font-normal ">
+          {/* text-[#09090B] */}
           {title}
         </CardTitle>
       </CardFooter>

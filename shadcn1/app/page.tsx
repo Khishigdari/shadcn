@@ -2,12 +2,24 @@
 // import { Card } from "@/components/ui/card";
 // import Image from "next/image";
 
-import { SectionContainer } from "@/components/my";
+import {
+  CarouselHeader,
+  Footer,
+  MenuBar,
+  SectionContainer,
+} from "@/components/my";
 
-export default function Home() {
+function Home() {
   return (
     <div>
-      <SectionContainer />
+      <MenuBar />
+      <CarouselHeader />
+
+      <div className="flex justify-center">
+        <SectionContainer />
+      </div>
+      <Footer></Footer>
     </div>
   );
 }
+export default Home;
