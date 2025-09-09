@@ -11,7 +11,7 @@ export const Footer = () => {
         <p className="mt-3">© 2024 Movie Z. All Rights Reserved.</p>
       </div>
       <div className="flex gap-24">
-        <div>
+        <div className="mb-[64px]">
           <p>Contact Information</p>
           <div className="flex items-center gap-3 mb-6 mt-3">
             <HiOutlineMail className="w-4 h-4" />
