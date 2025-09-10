@@ -7,3 +7,4 @@ export * from "./SearchBar";
 export * from "./Footer";
 export * from "./CarouselHeader";
 export * from "./GenreFilter";
+export * from "./PagePagination";

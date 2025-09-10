@@ -17,7 +17,7 @@ type movieCardProps = {
 
 export const MovieCard = ({ title, rating, image }: movieCardProps) => {
   return (
-    <Card className="w-[230px] bg-secondary p-0 overflow-hidden gap-2 shadow-none border-0">
+    <Card className="w-[230px] bg-secondary p-0 overflow-hidden gap-2 shadow-none border-0 flex">
       <CardContent className="p-0  ">
         <div className=" border-0 bg-[#000000]">
           {/* bg-[#000000] */}
