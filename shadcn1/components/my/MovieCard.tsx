@@ -22,7 +22,7 @@ export const MovieCard = ({ title, rating, image }: movieCardProps) => {
         <div className=" border-0 bg-[#000000]">
           {/* bg-[#000000] */}
           <Image
-            src={image}
+            src={`https://image.tmdb.org/t/p/w500/${image}`}
             alt=""
             width={230}
             height={340}
